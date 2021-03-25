@@ -1,0 +1,99 @@
+.roundPicture {
+  position: relative;
+  margin: 0;
+}
+
+.NIT {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  top: 60px;
+  left: 55px;
+}
+
+.percent-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+
+.NIT-quant {
+  font-size: 25px;
+
+}
+
+.NIT-percent {
+  font-size: 15px;
+}
+
+.prediction {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  top: 60px;
+  left: 155px;
+}
+
+.prediction-quant {
+  font-size: 15px;
+
+}
+
+.prediction-percent {
+  font-size: 15px;
+}
+
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  padding: 15px;
+  height: 80px;
+  top: 75px;
+  left: 75px;
+}
+
+.description-NIT {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+
+}
+
+.NIT-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.NIT-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.NIT-number--need {
+  color: grey;
+}
+
+.description-prediction {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+
+}
+
+.prediction-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.prediction-number {
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.prediction-number--need {
+  color: grey;
+}
